@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-google-genai
+langchain-community
+langchain-text-splitters
+fastembed
+faiss-cpu
+python-dotenv
+ragas
+langsmith
+google-api-core
