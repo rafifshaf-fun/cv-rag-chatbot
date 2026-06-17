@@ -1,7 +1,9 @@
 .env
+.env.example
 faiss_index/
 __pycache__/
 *.pyc
 *.pyo
 .DS_Store
 venv/
+evaluation_results.csv

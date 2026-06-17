@@ -1,4 +1,5 @@
-from rag_pipeline import build_vectorstore, get_embeddings
+from src.vectorstore import build_vectorstore
+from src.embeddings import get_embeddings
 from langchain_community.vectorstores import FAISS
 
 # Force rebuild

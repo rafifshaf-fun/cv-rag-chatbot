@@ -1,7 +1,7 @@
 import streamlit as st
 
-# Import your existing RAG pipeline
-from rag_pipeline import get_chain
+# Import the RAG chain from the modular src package
+from src.chain import get_chain
 
 # 1. Page Configuration (Must be the first Streamlit command)
 st.set_page_config(
@@ -40,29 +40,29 @@ with st.sidebar:
 
     # Core competencies highlight
     st.markdown("<h4 style='text-align: left;'>🎯 Core Competencies</h4>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: left;'>- Machine Learning<br>- Computer Vision<br>- Data Analytics</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: left;'>- Machine Learning & Data Science<br>- MLOps & Production ML<br>- Computer Vision<br>- LLM / RAG Applications<br>- Full-Stack Development<br>- Web Scraping & Automation</p>", unsafe_allow_html=True)
 
     # Download CV Button
     try:
-        with open("data/Rafif-Shafwan-CV.pdf", "rb") as pdf_file:
+        with open("data/cv-rafif-shafwan-general-en.pdf", "rb") as pdf_file:
             pdf_byte = pdf_file.read()
             st.download_button(
                 label="📄 Download My Resume",
                 data=pdf_byte,
-                file_name="Rafif_CV.pdf",
+                file_name="Rafif_Shafwan_CV.pdf",
                 mime="application/octet-stream"
             )
     except FileNotFoundError:
-        st.warning("⚠️ Please place 'Rafif-Shafwan-CV.pdf' in the 'data' folder to enable downloads.")
+        st.warning("⚠️ Please place a CV PDF (e.g. 'cv-rafif-shafwan-general-en.pdf') in the 'data' folder to enable downloads.")
 
-    st.markdown("<p style='text-align: center;'><a href='https://linkedin.com/rafif-shafwan'>LinkedIn</a> | <a href='https://github.com/rafifshaf-fun'>GitHub</a></p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center;'><a href='https://linkedin.com/in/rafif-shafwan'>LinkedIn</a> | <a href='https://github.com/rafifshaf-fun'>GitHub</a></p>", unsafe_allow_html=True)
 
     st.divider()
 
     with st.expander("🛠️ How this app is built"):
         st.markdown("""
         - **UI:** Streamlit  
-        - **LLM:** Google Gemini (`langchain_google_genai`)  
+        - **LLM:** Google Gemini (`langchain_google_genai`) — `gemini-3-flash-preview` with `gemini-2.5-flash` fallback  
         - **Architecture:** Retrieval-Augmented Generation (RAG)  
         - **Memory:** LangChain Message History
         """)

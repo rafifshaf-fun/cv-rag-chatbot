@@ -9,8 +9,15 @@ of those systems. The actual production code delivered to companies was built to
 enterprise-grade standards — including proper security, scalability, monitoring, 
 and operational reliability — but cannot be shared publicly due to client confidentiality.
 
+**MBTI:** INTP (Logician)  
+**Core Values:** Concise · Professional · Efficient · Pragmatic
+
 **PERSONALITY & WORK STYLE**
-I prefer working on end-to-end problems — not just notebooks, but real deployed systems. I am detail-oriented when it matters, especially in model monitoring and data pipelines, but pragmatic about shipping quickly when speed is needed. I enjoy working independently, but I also collaborate well with both technical and non-technical stakeholders. I am comfortable with ambiguity because freelance work trained me to scope problems myself. I prefer async communication and clear documentation over unnecessary meetings.
+I'm an **INTP (Logician)** — I enjoy understanding how systems work at a deep level, questioning assumptions, and finding creative solutions to complex problems. This naturally drives my curiosity in ML, data pipelines, and software architecture.
+
+I prefer working on end-to-end problems — not just notebooks, but real deployed systems. I'm detail-oriented when it matters, especially in model monitoring and data pipelines, but pragmatic about shipping quickly when speed is needed. I enjoy working independently, but I also collaborate well with both technical and non-technical stakeholders. I'm comfortable with ambiguity because freelance work trained me to scope problems myself.
+
+My core work values are **concise, professional, and efficient**. I believe in being direct and avoiding unnecessary meetings. I'm a very pragmatic person — I care about what works, not what's trendy.
 
 **WHY I GOT INTO ML / DATA SCIENCE**
 I started with a background in Computer Information Systems and became interested in machine learning because of its direct business impact.
@@ -28,15 +35,27 @@ This project example shows Rafif's ability to architect complex multi-stage infe
 Example Project 3 — CV RAG Chatbot (demonstrates LLM and NLP capability):
 This project example shows Rafif's ability to build and evaluate RAG systems. This project uses FAISS for vector storage, FastEmbed for embeddings, Groq API with Llama 3.3 as the LLM, and LangChain LCEL for the pipeline, evaluated with RAGAS metrics. Project stack: Python, LangChain, FAISS, Groq, Streamlit, RAGAS.
 
+Example Project 4 — Sovereign Ledger (demonstrates full-stack financial software capability):
+A comprehensive financial management system built for KPRI Warga Kesehatan Kabupaten Garut — a health-worker cooperative in Garut, Indonesia. Features include double-entry accounting with a full Chart of Accounts hierarchy, automated monthly batch processing (compulsory savings, social funds, loan installments), multi-type loan management with automatic installment scheduling, role-based access for five distinct user roles, and professional PDF/CSV reporting with KOP letterhead branding. Deployed on-premise via Docker (PHP-FPM + Nginx + PostgreSQL) with Supervisor-managed scheduling and persistent volume backups. Project stack: Laravel 11, Livewire 4, Alpine.js, Tailwind CSS, PostgreSQL, Laravel DOMPDF, PhpSpreadsheet, Docker.
+
+Example Project 5 — Makmur Grosir E-Commerce Image Scraper (demonstrates web scraping and automation capability):
+A Playwright-based web scraper for wholesale store (2,500+ products) that automatically searches for product images across 4 Indonesian e-commerce platforms — Lazada, Blibli, Shopee, and Tokopedia. Uses sophisticated anti-bot evasion including browser fingerprint spoofing, stealth page scripts, randomized delays, and headless detection circumvention. Runs as a scheduled GitHub Actions workflow (50 products per batch, every 3 hours) with resume support for failed items, action logging, and incremental progress tracking. Project stack: Node.js, Playwright, GitHub Actions, JavaScript, Anti-Bot Evasion.
+
 **TECHNICAL SKILLS**
-What I know best:
-Data Science — I have created models for individual and enterprise purposes.
-MLOps — experiment tracking with MLflow, model serving, automated retraining, and monitoring.
-Computer Vision — multi-stage pipelines, YOLO/SSD, OpenCV, and image segmentation.
-Python ecosystem — Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow.
+
+| Area | Skills |
+|---|---|
+| Languages | Python (primary), JavaScript, SQL, PHP |
+| ML & DS | Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy |
+| MLOps | MLflow, Docker, Grafana, FastAPI |
+| Computer Vision | YOLO, SSD, OpenCV, image segmentation |
+| LLM / NLP | LangChain, FAISS, FastEmbed, Groq, RAGAS |
+| Web / Full-Stack | Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL |
+| Web Scraping & Automation | Playwright, Puppeteer, Anti-Bot Evasion, GitHub Actions |
+| Tools | Git, Jupyter, VSCode, SharePoint |
 
 What I am currently learning:
-LLM applications and RAG systems, LangChain and LangGraph for agentic workflows, software engineering skills including FastAPI, Docker, CI/CD, and AI workflow automation.
+LLM applications and agentic workflows with LangChain and LangGraph, software engineering skills including FastAPI, Docker, CI/CD, and AI workflow automation.
 
 Tools I use daily:
 Python, Jupyter, MLflow, Docker, Git, Grafana, Pandas, and VSCode.
@@ -54,5 +73,28 @@ MTA from Microsoft in 2018 — foundational Microsoft technology credential.
 Python - Data Science from SanberCode in 2020 — early formal Python and data science training.
 CISCA from PASAS Institute in 2017 — fundamental training for supply chain.
 
+**LANGUAGES**
+- **Indonesian** — Native
+- **Sundanese** — Native (regional language of West Java)
+- **English** — Professional proficiency (daily working language)
+- **Malay** — Conversational (family background from North Sumatera)
+- **Spanish** — Basic reading comprehension
+
+**BEYOND WORK**
+
+**📚 Hobbies & Interests**
+I'm a heavy reader — I've read 700+ series across manhwa, manga, manhua, novels, and books. I gravitate toward action, politics, and deep-lore stories. When I'm not reading, I stay active with the gym (bench 100 kg, squat 100 kg), basketball, and swimming. I competed in both basketball and swimming at a professional level — basketball ended after an LCL tear, and swimming phased out after high school.
+
+**🏆 Personal Achievements**
+- Won a city-wide swimming competition as a child
+- Won an inside-college basketball competition
+- Financed my mother's Umrah pilgrimage — a milestone I'm deeply proud of
+
+**🌍 Community & Open Source**
+Currently contributing to **career-ops**, an open-source project that helps people navigate career opportunities in tech. I believe in giving back to the community that helped me grow.
+
+**💡 Fun Facts**
+I don't consider myself a genius — but I have a very high level of curiosity and a very attentive eye for detail. I notice things others miss, which serves me well in debugging, model evaluation, and data quality checks.
+
 **PERSONAL INFORMATION**
-I am based in Garut, West Java, Indonesia. I am bilingual in English and Indonesian. My GitHub is github.com/rafifshaf-fun. My LinkedIn is linkedin.com/in/rafif-shafwan. My email is rafifshaf@gmail.com. My phone number is +6281223638228.
+I am based in Garut, West Java, Indonesia. I speak Indonesian, Sundanese, English, and conversational Malay. My GitHub is github.com/rafifshaf-fun. My LinkedIn is linkedin.com/in/rafif-shafwan. My email is rafifshaf@gmail.com. My phone number is +62851-1705-7582.
