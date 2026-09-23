@@ -1,41 +1,28 @@
 # Rafif Shafwan
 
-**AI/ML Engineer · Data Scientist · Fullstack Developer**
+**AI/ML Engineer · Data Scientist · Full-Stack Developer**
 
 **Email:** rafifshaf@gmail.com | **Phone:** +62851-1705-7582
-**LinkedIn:** linkedin.com/in/rafif-shafwan | **GitHub:** github.com/rafifshaf-fun
+**LinkedIn:** linkedin.com/in/rafif-shafwan | **GitHub:** github.com/rafifshaf-fun | **Website:** rafifshaf.fun
 **Based in:** Garut, West Java, Indonesia | **Open to:** Remote & Hybrid roles
 
 ---
 
-## Who I Am
+## Professional Summary
 
-I'm a freelance Data Scientist and ML Engineer with over 6 years of experience building systems that actually ship — not just notebooks that collect dust. My work spans quantitative finance, computer vision, LLM/RAG applications, and more recently full-stack financial software built for real institutional clients.
-
-Most of my best work exists under NDA. The systems I've delivered to enterprise clients were built to production standards: reliable, monitored, and maintained. What you'll find on my GitHub are intentional demonstrations of the same techniques — clean, explainable, and open to review.
-
-If you're looking for someone who can take a complex problem from whiteboard to live deployment and keep it running, that's what I do.
-
-I'm also an open-source contributor — currently contributing to **career-ops**, a project that helps people navigate career opportunities in tech.
+AI/ML Engineer and Data Scientist with 6+ years of experience building production systems across LLM/RAG applications, computer vision, MLOps, and full-stack financial software. Proven track record of delivering end-to-end solutions for enterprise and public-sector clients, from data engineering and model development through deployment and monitoring. Enterprise deliverables are confidential; comparable open-source implementations are available on GitHub for technical review.
 
 ---
 
-## What I Bring to the Table
+## Core Competencies
 
-**MLOps & Production ML**
-Building ML systems that actually work in production is hard — I've done it repeatedly. I use MLflow for experiment tracking, Docker for reproducible environments, and Grafana for monitoring. I design systems that retrain automatically, alert when models drift, and require minimal human intervention to stay healthy.
-
-**Computer Vision**
-I build multi-stage inference pipelines, not just off-the-shelf model calls. My architecture — detect first with YOLO/SSD, then classify the crop with a fine-grained model — is a real engineering approach that significantly outperforms naive single-pass solutions, especially on small objects.
-
-**LLM & RAG Applications**
-Recent focus area. I build RAG systems using LangChain, FAISS, and FastEmbed — and importantly, I evaluate them properly using RAGAS metrics (faithfulness, answer relevancy, context precision). Most people build RAG demos; I build ones you can measure.
-
-**Full-Stack Financial Software**
-I design and ship production web applications for institutional clients — complete with double-entry accounting, role-based access control, automated batch processing, and professional-grade reporting. I own the full stack: database schema, backend logic, frontend UI, and Docker deployment.
-
-**Data Analysis & Communication**
-I've delivered reports and dashboards to non-technical clients in the public sector. I can translate complex findings into decisions, not just charts.
+| Area | Summary |
+|---|---|
+| MLOps & Production ML | Experiment tracking (MLflow), containerized deployment (Docker), and real-time monitoring (Grafana) for self-retraining, drift-aware ML systems. |
+| Computer Vision | Multi-stage inference pipelines (YOLO/SSD detection followed by fine-grained classification), improving accuracy on small or densely packed objects over single-pass baselines. |
+| LLM & RAG Applications | RAG systems — from single-pass pipelines to multi-agent architectures — built with LangChain, FAISS, and FastEmbed, and evaluated with RAGAS metrics (faithfulness, answer relevancy, context precision) to keep answers grounded in the source. |
+| Full-Stack Financial Software | Production web applications for institutional clients, including double-entry accounting, role-based access control, automated batch processing, and reporting. |
+| Data Analysis & Communication | Dashboards and reports for non-technical public-sector stakeholders, translating technical findings into actionable decisions. |
 
 ---
 
@@ -44,65 +31,84 @@ I've delivered reports and dashboards to non-technical clients in the public sec
 **Freelance Data Scientist & ML Engineer**
 *2020 – Present*
 
-Over 5 years of independent client work across finance, computer vision, data analytics, and institutional software. Delivered end-to-end systems — from scoping and data engineering through model development, deployment, and monitoring. Enterprise deliverables are confidential; selected examples available on request or via GitHub.
+Independent consultant delivering end-to-end systems across finance, computer vision, data analytics, and institutional software for enterprise and public-sector clients. Owns full project lifecycle: scoping, data engineering, model development, deployment, and monitoring. Enterprise deliverables are confidential; representative examples available on request or via GitHub.
 
-**Key capabilities demonstrated across projects:**
-
-- Automated ML retraining pipelines that run without manual intervention
-- Real-time production monitoring with alerting and anomaly detection
-- Multi-stage computer vision inference at accuracy levels beyond single-stage baselines
-- Full MLOps lifecycle ownership: experiment tracking, versioning, serving, and observability
-- End-to-end financial management systems with double-entry accounting and audit logging
+- Built automated ML retraining pipelines requiring no manual intervention
+- Implemented real-time production monitoring with alerting and anomaly detection
+- Designed multi-stage computer vision inference exceeding single-stage baseline accuracy
+- Owned full MLOps lifecycle: experiment tracking, versioning, serving, and observability
+- Delivered end-to-end financial management systems with double-entry accounting and audit logging
 
 ---
 
 **Data Analyst | Confidential Clients**
 *Jun 2021 – Jul 2022*
 
-Embedded with public sector communications teams to analyze digital media performance across platforms. Built dashboards, delivered reports, and helped non-technical decision-makers act on data they previously couldn't interpret. Conducted EDA on engagement patterns to surface trends and guide campaign strategy.
+Embedded with public sector communications teams to analyze digital media performance across platforms. Built dashboards and delivered reports that enabled non-technical decision-makers to act on engagement data. Conducted exploratory data analysis to identify trends and inform campaign strategy.
 
 ---
 
 **Data Engineer Intern | Star Energy**
 *Jan 2019 – Feb 2019*
 
-Early career exposure to enterprise data infrastructure. Supported migration from legacy file systems to SharePoint, including metadata standardization and data consistency work — an early lesson in why clean data pipelines matter before any model gets built.
+Supported migration from legacy file systems to SharePoint, including metadata standardization and data consistency validation.
 
 ---
 
 ## Project Highlights
 
-These are selected examples from a broader body of work. Each demonstrates a different capability area. Where a production version was delivered to a client, it was built to enterprise standards and remains confidential.
+Selected examples demonstrating distinct technical capabilities. Where a production version was delivered to a client, it remains confidential; public repositories demonstrate equivalent architecture.
 
 ---
 
 **Sovereign Ledger** *(Full-Stack / Fintech / Institutional Software)*
-A comprehensive financial management system built for **KPRI Warga Kesehatan Kabupaten Garut** — a health-worker cooperative in Garut, Indonesia. Features include double-entry accounting with a full Chart of Accounts hierarchy, automated monthly batch processing (compulsory savings, social funds, loan installments), multi-type loan management with automatic installment scheduling, role-based access for five distinct user roles, and professional PDF/CSV reporting with KOP letterhead branding. Deployed on-premise via Docker (PHP-FPM + Nginx + PostgreSQL) with Supervisor-managed scheduling and persistent volume backups. The full accounting ledger was seeded by importing and reconciling legacy Excel data covering the cooperative's complete transaction history.
+Financial management system built for KPRI Warga Kesehatan Kabupaten Garut, a health-worker cooperative in Garut, Indonesia. Features double-entry accounting with a full Chart of Accounts hierarchy, automated monthly batch processing (compulsory savings, social funds, loan installments), multi-type loan management with automatic installment scheduling, role-based access for five user roles, and PDF/CSV reporting with letterhead branding. Deployed on-premise via Docker (PHP-FPM, Nginx, PostgreSQL) with Supervisor-managed scheduling and persistent volume backups. Legacy Excel accounting data was imported and reconciled to seed the full transaction history.
 *Stack: Laravel 13, Livewire 4, Alpine.js, Tailwind CSS, PostgreSQL, Laravel DOMPDF, PhpSpreadsheet, Docker*
 
 ---
 
 **Indonesian Stock MLOps Platform** *(Finance / MLOps)*
-An end-to-end automated ML system that generates BUY/SELL signals for 45 IDXBLUE blue-chip stocks. Models retrain automatically, performance is monitored in real time via Grafana, and the system runs without daily human oversight. The public version demonstrates the architecture; the production version served live trading decisions.
+Automated ML system generating BUY/SELL signals for 45 IDXBLUE blue-chip stocks. Models retrain automatically with performance monitored in real time via Grafana, operating without daily human oversight. Public version demonstrates the architecture used in a production trading system.
 *Stack: Python, MLflow, Docker, Grafana, Scikit-learn, Pandas*
 
 ---
 
 **Multi-Stage Computer Vision Pipeline** *(Computer Vision)*
-A two-stage inference architecture: broad object detection using YOLO/SSD, followed by a fine-grained classifier applied to cropped detections. This approach outperforms single-pass detection on small or densely packed objects. The enterprise version was delivered under NDA; the public repo demonstrates the pipeline design.
+Two-stage inference architecture combining broad object detection (YOLO/SSD) with a fine-grained classifier applied to cropped detections, improving accuracy on small or densely packed objects over single-pass detection. Enterprise version delivered under NDA; public repository demonstrates the pipeline design.
 *Stack: Python, YOLO, OpenCV, PyTorch, TensorFlow*
 
 ---
 
-**CV RAG Chatbot** *(LLM / NLP / This Portfolio)*
-A retrieval-augmented generation system that answers questions about my resume. Built with LangChain LCEL, FAISS vector storage, FastEmbed (ONNX-based), and Groq's Llama 3.3 — evaluated with RAGAS metrics because a chatbot without measurement is just vibes. Live on Streamlit Community Cloud.
-*Stack: Python, LangChain, FAISS, FastEmbed, Groq, Streamlit, RAGAS*
+**Multi-Agent RAG System** *(LLM / RAG / Multi-Agent Systems)*
+Retrieval-augmented generation system that answers questions from any source material using collaborating agents — a router that decides how to answer, a retrieval agent that grounds responses in the source, an evaluator that scores factuality and hallucination risk, and a summarizer that manages conversation context. Typed contracts between agents keep the pipeline traceable, and the evaluator enforces faithfulness to the source. Works with any document set — books, manuals, internal knowledge bases.
+*Stack: Python, FAISS, Streamlit, RAG, Multi-Agent Systems*
 
 ---
 
-**Makmur Grosir – E-Commerce Image Scraper** *(Web Scraping / Automation / Anti-Bot)*
-Built a Playwright-based web scraper for wholesale store (2,500+ products) that automatically searches for product images across 4 Indonesian e-commerce platforms — Lazada, Blibli, Shopee, and Tokopedia. The scraper uses sophisticated anti-bot evasion including browser fingerprint spoofing, stealth page scripts, randomized delays, and headless detection circumvention. Runs as a scheduled GitHub Actions workflow (50 products per batch, every 3 hours) with resume support for failed items, action logging, and incremental progress tracking across runs. The pipeline converts an Excel product catalog into a fully image-mapped online storefront with zero manual image entry.
-*Stack: Node.js, Playwright, GitHub Actions, JavaScript, Anti-Bot Evasion*
+**Makmur Grosir – E-Commerce Image Scraper** *(Web Scraping / Automation)*
+Playwright-based scraper for a wholesale store (2,500+ products), automatically sourcing product images across four Indonesian e-commerce platforms (Lazada, Blibli, Shopee, Tokopedia). Implements anti-bot evasion including browser fingerprint spoofing, stealth page scripts, and randomized delays. Runs as a scheduled GitHub Actions workflow (50 products per batch, every 3 hours) with resume support and incremental progress tracking, converting an Excel product catalog into a fully image-mapped storefront.
+*Stack: Node.js, Playwright, GitHub Actions, JavaScript*
+
+---
+
+## Open Source Contributions
+
+**career-ops** *(AI Job Search Pipeline)* — Contributor to an open-source career management system (740+ offers evaluated, 100+ CVs generated).
+
+- **Resume/CV terminology support** ([PR #1069](https://github.com/santifer/career-ops/pull/1069)): Introduced resume-specific templates and documentation, enabling users to choose between US/industry "resume" and academic "CV" formats. Updated documentation and README translations project-wide.
+- **Indonesia job portal providers** ([PR #1086](https://github.com/santifer/career-ops/pull/1086)): Developed `jobstreet.mjs` and `glints.mjs` provider modules integrating public APIs to discover job postings from Indonesia's largest job platforms, including GraphQL querying, URL validation, SSRF protection, pagination, and unit tests.
+- **Glints + Jobstreet API restoration** ([PR #1173](https://github.com/santifer/career-ops/pull/1173)): Migrated Glints provider to the `/api/v2-alc/graphql` endpoint and Jobstreet to its v5 REST API following upstream deprecations, restoring scanner functionality. Added Arabic RTL and Japanese CJK font fallback to the CV template; contributed to CI/CD workflow updates and release automation.
+
+*Stack: Node.js, JavaScript, HTML/CSS, Playwright, REST APIs, GraphQL, YAML*
+
+---
+
+**Natively AI Assistant** *(AI Desktop App / Electron)* — Contributor to an open-source Electron + React desktop AI assistant, improving credential persistence and UI usability.
+
+- **Settings panel close button fix** ([PR #364](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant/pull/364)): Resolved a layout bug where the Settings panel lacked a visible close control due to a `flex-1` layout issue; added a top-right close button with backdrop blur and hover states.
+- **Credential persistence fallback fix** ([PR #370](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant/pull/370), superseded by [PR #373](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant/pull/373)): Diagnosed and fixed a bug causing silent loss of saved API keys after app restart, caused by keyring and fallback writes sharing a single try-catch block. Fix isolates the keyring write and falls back to AES-256-GCM encryption on failure; incorporated maintainer review feedback including error message redaction and regression tests.
+
+*Stack: TypeScript, Electron, React, Node.js, safeStorage/DPAPI, AES-256-GCM, Tailwind CSS*
 
 ---
 
@@ -111,21 +117,20 @@ Built a Playwright-based web scraper for wholesale store (2,500+ products) that 
 | Area | Skills |
 |---|---|
 | Languages | Python (primary), JavaScript, SQL, PHP |
-| Human Languages | Indonesian (native), English (professional), Sundanese (native), Malay (conversational) |
-| ML & DS | Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy |
+| ML & Data Science | Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy |
 | MLOps | MLflow, Docker, Grafana, FastAPI |
 | Computer Vision | YOLO, SSD, OpenCV, image segmentation |
 | LLM / NLP | LangChain, FAISS, FastEmbed, Groq, RAGAS |
 | Web / Full-Stack | Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL |
 | Web Scraping & Automation | Playwright, Puppeteer, Anti-Bot Evasion, GitHub Actions |
-| Tools | Git, Jupyter, VSCode, SharePoint |
+| Tools | Git, Jupyter, VS Code, GitHub |
 
 ---
 
 ## Education
 
 **Bachelor of Computer Science** — Universitas Terbuka *(GPA: 3.36 / 4.0)*
-Transferred from UIN Syarif Hidayatullah Jakarta to pursue distance learning while building full-time professional experience in parallel. Completed through distance learning while working professionally full-time.
+Completed via distance learning while working full-time. Transferred from UIN Syarif Hidayatullah Jakarta.
 
 **Computer Information Systems** *(partial)* — UIN Syarif Hidayatullah Jakarta
 
@@ -143,4 +148,4 @@ Transferred from UIN Syarif Hidayatullah Jakarta to pursue distance learning whi
 
 ## Availability
 
-Open to remote full-time, contract, or freelance engagements in ML Engineering, Data Science, MLOps, or Full-Stack Development. Available immediately. Prefer async-first teams that value documented, maintainable systems over speed-coded demos.
+Open to remote full-time, contract, or freelance engagements in ML Engineering, Data Science, MLOps, or Full-Stack Development. Available immediately.

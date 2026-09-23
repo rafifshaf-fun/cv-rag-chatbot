@@ -32,33 +32,36 @@ This project example shows Rafif's ability to build a full end-to-end automated 
 Example Project 2 — Multi-Stage Computer Vision Pipeline (demonstrates computer vision capability):
 This project example shows Rafif's ability to architect complex multi-stage inference pipelines. This project used a two-stage approach — first a YOLO/SSD detection model, then a fine-grained classifier on cropped images — significantly improving accuracy on small objects. The production version of this type of project was delivered to a client at enterprise grade. Project stack: Python, YOLO, OpenCV, PyTorch, TensorFlow.
 
-Example Project 3 — CV RAG Chatbot (demonstrates LLM and NLP capability):
-This project example shows Rafif's ability to build and evaluate RAG systems. This project uses FAISS for vector storage, FastEmbed for embeddings, Groq API with Llama 3.3 as the LLM, and LangChain LCEL for the pipeline, evaluated with RAGAS metrics. Project stack: Python, LangChain, FAISS, Groq, Streamlit, RAGAS.
+Example Project 3 — CV RAG Chatbot (this portfolio, demonstrates applied LLM / RAG capability):
+A retrieval-augmented generation chatbot that answers questions about Rafif's CV and personal profile. Built as a single-chain RAG pipeline using LangChain LCEL, FAISS vector storage, FastEmbed (ONNX-based) embeddings that run locally with no API key, and Google Gemini as the LLM with automatic model fallback. Retrieval uses Maximum Marginal Relevance so the retrieved context stays diverse instead of returning near-duplicate chunks, conversation memory is handled through LangChain message history, and the pipeline is evaluated with RAGAS metrics (faithfulness, answer relevancy, context precision, context recall). Live on Streamlit Community Cloud. Project stack: Python, LangChain, FAISS, FastEmbed, Google Gemini, Streamlit, RAGAS.
 
 Example Project 4 — Sovereign Ledger (demonstrates full-stack financial software capability):
-A comprehensive financial management system built for KPRI Warga Kesehatan Kabupaten Garut — a health-worker cooperative in Garut, Indonesia. Features include double-entry accounting with a full Chart of Accounts hierarchy, automated monthly batch processing (compulsory savings, social funds, loan installments), multi-type loan management with automatic installment scheduling, role-based access for five distinct user roles, and professional PDF/CSV reporting with KOP letterhead branding. Deployed on-premise via Docker (PHP-FPM + Nginx + PostgreSQL) with Supervisor-managed scheduling and persistent volume backups. Project stack: Laravel 11, Livewire 4, Alpine.js, Tailwind CSS, PostgreSQL, Laravel DOMPDF, PhpSpreadsheet, Docker.
+A comprehensive financial management system built for KPRI Warga Kesehatan Kabupaten Garut — a health-worker cooperative in Garut, Indonesia. Features include double-entry accounting with a full Chart of Accounts hierarchy, automated monthly batch processing (compulsory savings, social funds, loan installments), multi-type loan management with automatic installment scheduling, role-based access for five distinct user roles, and professional PDF/CSV reporting with KOP letterhead branding. Deployed on-premise via Docker (PHP-FPM + Nginx + PostgreSQL) with Supervisor-managed scheduling and persistent volume backups. Project stack: Laravel 13, Livewire 4, Alpine.js, Tailwind CSS, PostgreSQL, Laravel DOMPDF, PhpSpreadsheet, Docker.
 
 Example Project 5 — Makmur Grosir E-Commerce Image Scraper (demonstrates web scraping and automation capability):
 A Playwright-based web scraper for wholesale store (2,500+ products) that automatically searches for product images across 4 Indonesian e-commerce platforms — Lazada, Blibli, Shopee, and Tokopedia. Uses sophisticated anti-bot evasion including browser fingerprint spoofing, stealth page scripts, randomized delays, and headless detection circumvention. Runs as a scheduled GitHub Actions workflow (50 products per batch, every 3 hours) with resume support for failed items, action logging, and incremental progress tracking. Project stack: Node.js, Playwright, GitHub Actions, JavaScript, Anti-Bot Evasion.
+
+Example Project 6 — Multi-Agent RAG System (demonstrates multi-agent and RAG architecture capability):
+A retrieval-augmented generation system that answers questions from any source material using collaborating agents — a router that decides how to answer, a retrieval agent that grounds responses in the source, an evaluator that scores factuality and hallucination risk, and a summarizer that manages conversation context. Typed contracts between agents keep the pipeline traceable, and the evaluator enforces faithfulness to the source. Works with any document set — books, manuals, internal knowledge bases. Project stack: Python, FAISS, Streamlit, RAG, Multi-Agent Systems.
 
 **TECHNICAL SKILLS**
 
 | Area | Skills |
 |---|---|
 | Languages | Python (primary), JavaScript, SQL, PHP |
-| ML & DS | Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy |
+| ML & Data Science | Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy |
 | MLOps | MLflow, Docker, Grafana, FastAPI |
 | Computer Vision | YOLO, SSD, OpenCV, image segmentation |
 | LLM / NLP | LangChain, FAISS, FastEmbed, Groq, RAGAS |
 | Web / Full-Stack | Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL |
 | Web Scraping & Automation | Playwright, Puppeteer, Anti-Bot Evasion, GitHub Actions |
-| Tools | Git, Jupyter, VSCode, SharePoint |
+| Tools | Git, Jupyter, VS Code, GitHub |
 
 What I am currently learning:
 LLM applications and agentic workflows with LangChain and LangGraph, software engineering skills including FastAPI, Docker, CI/CD, and AI workflow automation.
 
 Tools I use daily:
-Python, Jupyter, MLflow, Docker, Git, Grafana, Pandas, and VSCode.
+Python, Jupyter, MLflow, Docker, Git, Grafana, Pandas, and VS Code.
 
 **EDUCATION**
 I studied Computer Information Systems at UIN Syarif Hidayatullah Jakarta before transferring to Universitas Terbuka, where I completed my Bachelor of Computer Science with a GPA of 3.36 out of 4.0. Universitas Terbuka is Indonesia's open and distance learning university. Choosing it was a deliberate decision to study at my own pace while gaining real work experience at the same time.
@@ -91,7 +94,10 @@ I'm a heavy reader — I've read 700+ series across manhwa, manga, manhua, novel
 - Financed my mother's Umrah pilgrimage — a milestone I'm deeply proud of
 
 **🌍 Community & Open Source**
-Currently contributing to **career-ops**, an open-source project that helps people navigate career opportunities in tech. I believe in giving back to the community that helped me grow.
+I actively contribute to open-source projects:
+- **career-ops** (open-source AI job-search pipeline) — contributed resume/CV terminology support (PR #1069); built Indonesia job-portal providers for Jobstreet and Glints using GraphQL and public APIs with SSRF protection (PR #1086); restored the Glints and Jobstreet APIs after upstream deprecations (PR #1173).
+- **Natively AI Assistant** (Electron + React desktop AI app) — fixed a Settings panel layout bug (PR #364); diagnosed and fixed a silent credential-loss bug on restart, isolating the keyring write with an AES-256-GCM fallback (PR #370 / #373).
+I believe in giving back to the community that helped me grow.
 
 **💡 Fun Facts**
 I don't consider myself a genius — but I have a very high level of curiosity and a very attentive eye for detail. I notice things others miss, which serves me well in debugging, model evaluation, and data quality checks.

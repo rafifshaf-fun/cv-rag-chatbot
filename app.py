@@ -31,7 +31,7 @@ with st.sidebar:
 
     st.markdown(
         "<p style='text-align: center;'>"
-        "<a href='https://rafifshaf-fun.github.io'>Portfolio</a> · "
+        "<a href='https://rafifshaf.fun'>Portfolio</a> · "
         "<a href='https://linkedin.com/in/rafif-shafwan'>LinkedIn</a> · "
         "<a href='https://github.com/rafifshaf-fun'>GitHub</a>"
         "</p>",
@@ -40,17 +40,22 @@ with st.sidebar:
 
     st.divider()
 
-    try:
-        with open("data/cv-rafif-shafwan-general-en.pdf", "rb") as pdf:
-            st.download_button(
-                label="📄 Download CV",
-                data=pdf.read(),
-                file_name="Rafif_Shafwan_CV.pdf",
-                mime="application/octet-stream",
-                use_container_width=True,
-            )
-    except FileNotFoundError:
-        st.info("📄 CV PDF not found — place it in `data/` to enable downloads.")
+    st.markdown("**📄 Download CV**")
+    for label, path, filename in [
+        ("🇬🇧 English", "data/Rafif_Shafwan_CV_English.pdf", "Rafif_Shafwan_CV_EN.pdf"),
+        ("🇮🇩 Indonesian", "data/Rafif_Shafwan_CV_Indonesian.pdf", "Rafif_Shafwan_CV_ID.pdf"),
+    ]:
+        try:
+            with open(path, "rb") as pdf:
+                st.download_button(
+                    label=label,
+                    data=pdf.read(),
+                    file_name=filename,
+                    mime="application/pdf",
+                    use_container_width=True,
+                )
+        except FileNotFoundError:
+            st.info(f"{label} CV not found in `data/`.")
 
 # ── Chat header ────────────────────────────────────────────────────────
 st.title("💬 Ask me anything")
