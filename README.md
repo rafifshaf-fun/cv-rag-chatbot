@@ -6,11 +6,11 @@ A **Retrieval-Augmented Generation (RAG)** chatbot that answers questions about 
 
 ## ✨ Features
 
-- **Conversational RAG** — Ask follow-up questions naturally; the bot remembers context
-- **Multi-model fallback** — Primary model (`gemini-3-flash-preview`) automatically falls back to `gemini-2.5-flash` on rate limits
-- **MMR retrieval** — Maximum Marginal Relevance ensures diverse, non-repetitive context
-- **RAGAS evaluation** — Quantified performance on faithfulness, answer relevancy, context precision, and context recall
-- **Streamlit UI** — Clean chat interface with sidebar profile, download CV button, and mobile-friendly layout
+- **Conversational RAG**: Ask follow-up questions naturally; the bot remembers context
+- **Multi-model fallback**: Primary model (`gemini-3-flash-preview`) automatically falls back to `gemini-2.5-flash` on rate limits
+- **MMR retrieval**: Maximum Marginal Relevance ensures diverse, non-repetitive context
+- **RAGAS evaluation**: Quantified performance on faithfulness, answer relevancy, context precision, and context recall
+- **Streamlit UI**: Clean chat interface with sidebar profile, download CV buttons, and a mobile-friendly layout
 
 ---
 
@@ -19,8 +19,8 @@ A **Retrieval-Augmented Generation (RAG)** chatbot that answers questions about 
 ### 1. Clone & enter
 
 ```bash
-git clone https://github.com/rafifshaf-fun/rag-cv-chatbot.git
-cd rag-cv-chatbot
+git clone https://github.com/rafifshaf-fun/cv-rag-chatbot.git
+cd cv-rag-chatbot
 ```
 
 ### 2. Set up environment
@@ -61,12 +61,13 @@ streamlit run app.py
 ## 🏗️ Project Structure
 
 ```
-rag-cv-chatbot/
+cv-rag-chatbot/
 ├── app.py                 ← Streamlit UI entry point
 ├── config.py              ← All tunable constants (models, paths, chunk size, etc.)
 ├── rag_pipeline.py        ← Backward-compatible re-exports
 ├── evaluate.py            ← RAGAS evaluation script
 ├── requirements.txt
+├── .env.example           ← Template for required env vars
 ├── .env                   ← API keys (not committed)
 ├── data/
 │   ├── my_cv.md           ← Curriculum vitae (structured)
@@ -125,10 +126,10 @@ python evaluate.py
 ```
 
 This tests the pipeline on 8 Q&A pairs and reports:
-- **Faithfulness** — Is the answer grounded in the retrieved context?
-- **Answer Relevancy** — Does the answer address the question?
-- **Context Precision** — Are the retrieved chunks relevant?
-- **Context Recall** — Does the context contain all necessary information?
+- **Faithfulness**: Is the answer grounded in the retrieved context?
+- **Answer Relevancy**: Does the answer address the question?
+- **Context Precision**: Are the retrieved chunks relevant?
+- **Context Recall**: Does the context contain all necessary information?
 
 Results are saved to `evaluation_results.csv`.
 
@@ -138,8 +139,8 @@ Results are saved to `evaluation_results.csv`.
 
 Edit the markdown files in `data/`:
 
-- **`my_cv.md`** — Structured CV (experience, projects, skills, education)
-- **`about_me.md`** — Extended personal profile (personality, hobbies, achievements, languages)
+- **`my_cv.md`**: Structured CV (experience, projects, skills, education)
+- **`about_me.md`**: Extended personal profile (personality, hobbies, achievements, languages)
 
 After editing, rebuild the index:
 
@@ -177,12 +178,12 @@ To change the bot's behaviour or persona, edit `src/prompts.py`.
 
 ## 📄 License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
 
 ---
 
 ## 👤 About
 
-Built by **Rafif Shafwan** — [GitHub](https://github.com/rafifshaf-fun) · [LinkedIn](https://linkedin.com/in/rafif-shafwan)
+Built by **Rafif Shafwan**: [GitHub](https://github.com/rafifshaf-fun) · [LinkedIn](https://linkedin.com/in/rafif-shafwan)
 
-*This is one of several portfolio projects demonstrating applied ML engineering. The techniques shown here are the same ones used in production systems delivered to enterprise clients — just simplified and open for review.*
+*This is one of several portfolio projects demonstrating applied ML engineering. The same techniques appear in production systems delivered to enterprise clients, simplified here and open for review.*
